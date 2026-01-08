@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venu Aravind | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top">
+        <header class="header">
+            <h3 class="heading">Portfolio</h3>
+            <button class="hamburger" id="hamburger">
+                ☰
+            </button>
+        </header>
+        <nav class="nav-menu" id="nav-menu">
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </div>
+    <div class="intro">
+        <h4>HELLO,&nbsp;&nbsp;I'M</h4>
+        <h2>VENU ARAVIND</h2>
+        <div class="changing-text-place-holder">
+            <p class="changing-text" id="changing-text">hi</p>
+            <p class="changing-text-place">|</p>
+        </div>
+        <p style="color: white; font: 1rem sans-serif;">Building beautiful, functional, and user-centric digital experiences <br>with modern web technologies.</p>
+        <div class="intro-buttons">
+            <button onclick= "document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })" class="intro-projects">View Projects &nbsp&nbsp ></button>
+            <button onclick= "document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })" class="intro-contact">Contact</button>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <img src="profile.jfif" alt="Venu Aravind" class="profile-pic">
+        <div class="about-text">
+            <p style="font-size: 15px; color: blueviolet;">ABOUT</p>
+            <p style="font-size: 40px; font-weight: bold;">
+                A passionate developer
+            </p>
+            <p style="color: rgb(186, 186, 186);">
+                with expertise in web development, data science, and machine learning. 
+                I love creating innovative solutions and exploring new technologies.<br>
+                I'm a curious and driven developer with a passion for creating meaningful digital experiences. My journey in tech started with a simple curiosity about how things work.<br> <br>I specialize in full-stack development with a keen interest in AI and machine learning. I believe in writing clean, efficient code and continuously learning new technologies.
+            </p>
+        </div>
+    </div>
+    <div class="skills">
+        <h2 style="color: white; display: flex; flex-wrap: wrap;">Skills & <div class="skills-heading">Technologies
+            </div>
+        </h2>
+        <div class="skills-elements" id="skills">
+            <div class="element">React</div>
+            <div class="element">JavaScript</div>
+            <div class="element">HTML</div>
+            <div class="element">CSS</div>
+            <div class="element">Tailwind CSS</div>
+            <div class="element">Python</div>
+            <div class="element">FastAPI</div>
+            <div class="element">MySQL</div>
+        </div>
+        <div class="projects" id="projects">
+            <h2>My <div class="projects-heading">Projects</div>
+            </h2>
+            <div class="project-cards">
+                <div class="card">
+                    <h3>Phd Applications Management System</h3>
+                    <p>A web application to manage Phd applications efficiently.</p>
+                </div>
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>The website that you are currently viewing!</p>
+                </div>
+            </div>
+        </div>
+        <div class="experience" id="experience">
+            <h2>Experience & <div class="experience-heading">Education</div>
+            </h2>
+            <div class="experience-item">
+                <div class="date">
+                    <p>2025</p>
+                </div>
+                <div>
+                    <p style="color: blueviolet;">WORK</p>
+                    <h3>Research Team</h3>
+                    <p>Full Stacks Developer</p>
+                    <p>SRM Easwari Engineering College</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="date">
+                    <p>2024 - 2028</p>
+                </div>
+                <div>
+                    <p style="color: blueviolet;">EDUCATION</p>
+                    <h3>B.Tech Computer Science Business System</h3>
+                    <p>SRM Easwari Engineering College</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <p style="color: blueviolet;">contact</p>
+            <h2>Let's <div class="contact-heading">Connect</div></h2>
+            <div class="contact-container">
+                <button class="icon-button">
+                    <a href="https://github.com/Venu-Aravind-K" target="_blank">
+                        <img src="github.png" alt="GitHub" class="icon">
+                    </a>
+                </button>
+                <button class="icon-button">
+                    <a href="https://www.linkedin.com/in/venu-aravind-10a51a35a/" target="_blank">
+                        <img src="linkedin.png" alt="GitHub" class="icon">
+                    </a>
+                </button>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+
